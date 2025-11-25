@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'TTLakes-Thin';
+    src: url('TTLakes-Thin.woff') 
+    }
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {min-height: 100vh;}
+.header {height: 56px;border-top: 1px solid #D9FFF5;display: flex;align-items: center;}
+.title {font-weight: 400;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;margin-left: 30px;}
+.main {background-color: #f8f8f8;}
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 14px;
+    margin-left: 30px;
+    padding-top: 17px;
+}
+.brands-item {
+    background-color: #ffffff;
+    width: 240px;
+    height: 72px;
+    border-radius: 8px;
+    border-color: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hide, .show {
+    display: flex;
+    margin-left: 30px;
+    border: none;
+    background-color: #f8f8f8;
+}
+.hide-text {font-weight: 500;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;}
+
+@media screen and (max-width: 768px) {
+.brands-item__off {visibility: hidden;}   
+}
+@media screen and (max-width: 320px) {
+    
+}
