@@ -30,6 +30,12 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.brands-item__hide.hidden {
+ visibility: hidden;
+}
+.show-all.brands-item__hide {
+ visibility: visible;   
+}
 .brands-item__btn {
     width: 40px;
     height: 40px;
@@ -40,16 +46,15 @@
     align-items: center;
     justify-content: center;
 }
-.brands__btns {
-display: flex;
-margin-top: 30px;
-padding-bottom: 20px;
-}
-.hide, .show {
+.hide {
     display: flex;
     margin-left: 30px;
     border: none;
     background-color: #f8f8f8;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 .hide-text {font-weight: 500;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;}
 
