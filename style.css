@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
 }
-.body {min-height: 100vh;}
+.container 
 .header {height: 56px;border-top: 1px solid #D9FFF5;display: flex;align-items: center;}
 .title {font-weight: 400;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;margin-left: 30px;}
 .main {background-color: #f8f8f8;}
@@ -17,6 +17,7 @@
     row-gap: 14px;
     margin-left: 30px;
     padding-top: 17px;
+    
 }
 .brands-item {
     background-color: #ffffff;
@@ -61,6 +62,7 @@
 @media screen and (max-width: 768px) {
 .brands-item__off {visibility: hidden;}   
 }
+
 @media screen and (max-width: 320px) {
     
 }

@@ -10,12 +10,10 @@ items.forEach(brandsitemhide => {
     brandsBtn.textContent = 'Показать всё';
     brands.classList.remove('show-all');
     } else {
-
-        items.forEach(item => {
-            brandsitemhide.classList.remove('hidden');
-        });
-        brandsBtn.textContent = 'Скрыть всё';
-        brands.classList.add('show-all');
+    items.forEach(item => {
+    brandsitemhide.classList.remove('hidden');});
+    brandsBtn.textContent = 'Скрыть всё';
+    brands.classList.add('show-all');
     }
        
       
