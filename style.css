@@ -20,6 +20,7 @@
     
 }
 .brands-item {
+    width: 100vh;
     background-color: #ffffff;
     width: 240px;
     height: 72px;
